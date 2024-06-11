@@ -26,12 +26,18 @@
   git config --global user.email "<email address>"
 	- sets the user's username and email address
 
-*git config --global user.name 
- git config --global user.email 
+* git config --global user.name 
+  git config --global user.email 
 	- to check if username and email address were successfully connected
 
-*git status 
+* git status 
 	- displays the current status of your file/folder
 
-*git add .
+* git add .
 	- adds all modified files in your current directory to the staging area
+
+* gid add "<filename>"
+	- adds a specific file to the staging area
+
+* git commit -m "message"
+	- saves the changes that you've made to the files in the staging area to the repository. The "message" describes what changes were made in this commit.
